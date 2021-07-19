@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #262626;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.loader {
+  position: absolute;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader h1 {
+  margin: 0;
+  padding: 0;
+  height: -800px;
+  text-transform: uppercase;
+  font-size: 10em;
+  color: rgb(255, 255, 255, 0.1);
+  background-image: url(water.jpg);
+  background-repeat: repeat-x;
+  background-clip: text;
+  -webkit-background-clip: text;
+  animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: left 0px top 20px;
+  }
+  40% {
+    background-position: left 800px top -60px;
+  }
+  80% {
+    background-position: left 1800px top -20px;
+  }
+  100% {
+    background-position: left 2400px top 20px;
+  }
+}
+
+
+header {
+	padding: 15px;
+	height: 830px;
+	background: -webkit-linear-gradient(to right, #00FFFF, #FFFFFF );
+	background: linear-gradient(to right, #00FFFF, #FFFFFF );
+	text-align: center;
+}
+
+header a, header a:visited {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+} 
+
+header a:hover {
+	color: blue;
+	font-weight: bold;
+	text-decoration: underline;
+} 
+
+main {
+	padding: 100px;
+	float: left;
+	min-height: 300px;
+	width: 1687px;
+	background-color: black;
+}
+
+.bordePie {
+	padding: 40px;
+	background: -webkit-linear-gradient(to right, #FFFFFF, #00FFFF );
+	background: linear-gradient(to right, #FFFFFF, #00FFFF );
+}
+
+.interioPie {
+	clear: both;
+	padding: 40px;
+	background: #DFECEC;
+	color: #00FFFF;
+	text-align: left;
+}
+
+.formColabora{
+	text-align:right;
+	color: black;
+}
+
+.ultColumn{
+	float: right;
+	text-align:right;
+	width: 25%;
+	font-size: 12px;
+	color: black;
+}
+
+.logoPie{
+    height: 9em;
+    width: 15em;
+}
+
+footer a, footer a:visited {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+} 
+
+footer a:hover {
+	color: blue;
+	font-weight: bold;
+	text-decoration: underline;
+} 
+
+div.saludo {
+	width: 100%;
+	text-align: center;
+}
+
+h1.titulo {
+	width: 100%;
+	text-align: center;
+	background-color: #32D6F1;
+	color: white;
+}
+
+.column {
+  float: left;
+  width: 15%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}

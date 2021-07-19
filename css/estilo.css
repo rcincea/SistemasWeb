@@ -1,0 +1,195 @@
+
+body {
+	background-color: #8993be;
+}
+
+
+header {
+	padding: 15px;
+	height: 100%;
+	background: -webkit-linear-gradient(to right, #FFFFFF, #00FFFF );
+	background: linear-gradient(to right, #FFFFFF, #00FFFF );
+	color: black;
+	text-align: center;
+}
+
+header a, header a:visited {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+} 
+
+header a:hover {
+	color: blue;
+	font-weight: bold;
+	text-decoration: underline;
+} 
+
+main {
+	padding:100px;
+	box-sizing: border-box;
+	float: left;
+	width: 100%;
+	background: -webkit-linear-gradient(to right, #FFFF00, #00FFFF );
+	background: linear-gradient(to right, #FFFFFF, #00FFD0 );
+}
+
+.bordePie {
+	padding: 40px;
+	background: -webkit-linear-gradient(to right, #FFFFFF, #00FFFF );
+	background: linear-gradient(to right, #FFFFFF, #00FFFF );
+}
+
+.interioPie {
+	clear: both;
+	padding: 40px;
+	background: #DFECEC;
+	color: #00FFFF;
+	text-align: left;
+}
+
+.formColabora{
+	text-align:right;
+	color: black;
+}
+
+.ultColumn{
+	float: right;
+	text-align:right;
+	width: 25%;
+	font-size: 12px;
+	color: black;
+}
+
+.logoPie{
+    height: 9em;
+    width: 15em;
+}
+
+footer a, footer a:visited {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+} 
+
+footer a:hover {
+	color: blue;
+	font-weight: bold;
+	text-decoration: underline;
+} 
+
+div.saludo {
+	width: 100%;
+	text-align: center;
+}
+
+h1.titulo {
+	width: 100%;
+	text-align: center;
+	background-color: #32D6F1;
+	color: white;
+}
+
+.column {
+  float: left;
+  width: 15%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img.perfilUser{
+	width: 150px;
+}
+img.fotoAnimal{
+	width: 150px;
+}
+
+img.contenedor{
+	width: 100%;
+	display:block;
+}
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 15px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 10px;
+}
+textarea.comentarioHilo{
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+
+p.hilo {
+  text-indent: 50px;
+  text-align: left;
+}
+div.hilo {
+  border: 1px solid gray;
+  padding: 8px;
+}
+img.perfilForo{
+	width: 50px;
+	border-radius: 50%;
+}
+div.cabeceraHiloIMG{
+	float: left;
+    width: 50px; 
+    padding: 5px;
+}
+div.cabeceraHilo{
+	float: left;
+    width: 15%; 
+    padding: 5px;
+}
+div.comentario {
+    float: left;                 
+    width: 100%;                         
+    text-align:justify;                         
+}
+div.columnEntrada{
+    float: left;
+    padding: 5px;
+}
+h1.titulo{
+	text-align:center;
+}
+h2.tituloHilo{
+	text-align:center;
+}
+hr.barraForo {
+  border: 2px solid #32D6F1;
+  border-radius: 5px;
+}
+
+a.boton{
+	text-decoration: none;
+	background-color: rgba(70, 63, 63, 0.507);
+	color: white;
+	font-size: 1.25rem;
+	padding: 1rem 1.25rem;
+	border-radius: 3px;
+	margin-right: 0.75em;
+	flex-shrink: 0;
+	transition: 0.3s ease-in;
+}
+a.boton:hover{
+	box-shadow: 7px 7px #232323;
+    transform: scale(1.1);
+}
